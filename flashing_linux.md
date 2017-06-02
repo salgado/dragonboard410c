@@ -15,11 +15,11 @@ Se tudo der certo, este procedimento (fastboot) total dura em torno de 10 minuto
 - Sistema operacional linux ou OSX 
 
 ## Passo 1 - Preparar os arquivos com imagem do linux
-- crie uma pasta (ex.: dragonlinux) e baixe os seguintes arquivos
-1.1 - dragonboard410c_bootloader_emmc_linux-79.zip -> http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip
-1.2 - boot-linaro-stretch-qcom-snapdragon-arm64-20170510-233.img.gz -> http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-*-qcom-snapdragon-arm64-*.img.gz
-1.3 - linaro-stretch-alip-qcom-snapdragon-arm64-20170510-233.img.gz -> http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-*-alip-qcom-snapdragon-arm64-*.img.gz
-1.4 - flashall
+- crie uma pasta (ex.: dragonlinux) e baixe os seguintes arquivos  
+1.1 - dragonboard410c_bootloader_emmc_linux-79.zip -> http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip  
+1.2 - boot-linaro-stretch-qcom-snapdragon-arm64-20170510-233.img.gz -> http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-*-qcom-snapdragon-arm64-*.img.gz  
+1.3 - linaro-stretch-alip-qcom-snapdragon-arm64-20170510-233.img.gz -> http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-*-alip-qcom-snapdragon-arm64-*.img.gz  
+
 
 ## Passo 2 - montando a pasta
 - descompacte todos os 3 arquivos baixados e coloque-os dentro da mesma pasta. (ex: dragonlinux)
