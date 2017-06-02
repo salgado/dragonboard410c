@@ -24,19 +24,19 @@ Se tudo der certo, este procedimento (fastboot) total dura em torno de 10 minuto
 ## Passo 2 - montando a pasta
 - descompacte todos os 3 arquivos baixados e coloque-os dentro da mesma pasta. (ex: dragonlinux)
 - de um "ls" e verifique se sua pasta contem os seguintes arquivos: 
-LICENSE
-MD5SUMS.txt
-NON-HLOS.bin
-boot-linaro-stretch-qcom-snapdragon-arm64-20170510-233.img
-emmc_appsboot.mbn
-flashall
-gpt_both0.bin
-hyp.mbn
-linaro-stretch-alip-qcom-snapdragon-arm64-20170510-233.img
-rpm.mbn
-sbc_1.0_8016.bin
-sbl1.mbn
-tz.mbn
+LICENSE  
+MD5SUMS.txt  
+NON-HLOS.bin  
+boot-linaro-stretch-qcom-snapdragon-arm64-20170510-233.img  
+emmc_appsboot.mbn  
+flashall  
+gpt_both0.bin  
+hyp.mbn  
+linaro-stretch-alip-qcom-snapdragon-arm64-20170510-233.img  
+rpm.mbn  
+sbc_1.0_8016.bin  
+sbl1.mbn  
+tz.mbn  
 
 ## Passo 3- editar o arquivo flashall com o seguinte conteúdo:
 #!/bin/sh
