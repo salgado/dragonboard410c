@@ -64,7 +64,7 @@ export fastboot=~/Library/Android/sdk/platform-tools/fastboot
 com o cabo de energia desplugado, pressionar o botão de volume (-) e em seguida plugar o cabo de energia e esperar cerca de 10segundos
 
 ## Passo 6 - verificar se disposto usb conectou
-comando: $fastboot devices
+comando: $fastboot devices  
 resultado: 3de82e08	fastboot  (ou algo parecido)
 
 ## Passo 7 - executar o script
