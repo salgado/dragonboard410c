@@ -1,4 +1,4 @@
-# instalando o linux na DragonBoard - flashing linux using fastboot
+# Instalando o linux na DragonBoard - flashing linux using fastboot
 Para quem adquiriu a DragonBoard410c, normalmente ela vem com o sistema Android instalado. Se você deseja fazer um upload do sistema operacional Debian Linux, segue um passo a passo:
 
 Se tudo der certo, este procedimento (fastboot) total dura em torno de 10 minutos após download da imagem.
