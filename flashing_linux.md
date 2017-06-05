@@ -61,7 +61,8 @@ $fastboot flash rootfs linaro-stretch-alip-qcom-snapdragon-arm64-20170510-233.im
 export fastboot=~/Library/Android/sdk/platform-tools/fastboot 
 
 ## Passo 5 - Boot em fastmode - placa dragonboard
-com o cabo de energia desplugado, pressionar o botão de volume (-) e em seguida plugar o cabo de energia e esperar cerca de 10segundos
+1- Conectar o cabo mini-usb na placa e a outra extremidade na usb do seu computador (aquele cabo que usamos para carregar o celular).
+2- Com o cabo de energia desplugado, pressionar o botão de volume (-) e em seguida plugar o cabo de energia e esperar cerca de 10segundos
 
 ## Passo 6 - verificar se disposto usb conectou
 comando: $fastboot devices  
