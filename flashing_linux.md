@@ -71,6 +71,10 @@ resultado: 3de82e08	fastboot  (ou algo parecido)
 ## Passo 7 - executar o script
 ./flashall 
 
+## Passo 8 - religar a placa
+- Desplugue os cabos  
+- Plugue o cabo de energia e o HDMI e verá sua placa carregando o sistema Linux Debian pronto para utilizar
+
 
 Dúvidas?
 mande email com assunto [duvida-fastboot-dragonboard410c] para alexsalgado1@gmail.com
