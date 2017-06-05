@@ -41,20 +41,20 @@ tz.mbn
 ## Passo 3- editar o arquivo flashall com o seguinte conteúdo:
 #!/bin/sh
 
-$fastboot flash partition gpt_both0.bin
-$fastboot flash hyp hyp.mbn
-$fastboot flash rpm rpm.mbn
-$fastboot flash sbl1 sbl1.mbn
-$fastboot flash tz tz.mbn
-$fastboot flash aboot emmc_appsboot.mbn
-$fastboot flash cdt sbc_1.0_8016.bin
+$fastboot flash partition gpt_both0.bin  
+$fastboot flash hyp hyp.mbn  
+$fastboot flash rpm rpm.mbn  
+$fastboot flash sbl1 sbl1.mbn  
+$fastboot flash tz tz.mbn  
+$fastboot flash aboot emmc_appsboot.mbn  
+$fastboot flash cdt sbc_1.0_8016.bin  
 
-$fastboot erase boot
-$fastboot erase rootfs
-$fastboot erase devinfo
+$fastboot erase boot  
+$fastboot erase rootfs  
+$fastboot erase devinfo  
 
-$fastboot flash boot boot-linaro-stretch-qcom-snapdragon-arm64-20170510-233.img
-$fastboot flash rootfs linaro-stretch-alip-qcom-snapdragon-arm64-20170510-233.img
+$fastboot flash boot boot-linaro-stretch-qcom-snapdragon-arm64-20170510-233.img  
+$fastboot flash rootfs linaro-stretch-alip-qcom-snapdragon-arm64-20170510-233.img  
 
 
 ## Passo 4 - digitar o seguinte comando
